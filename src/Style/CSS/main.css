@@ -173,6 +173,70 @@ header {
   font-weight: 700;
   line-height: normal;
 }
+/* project section style */
+.contact {
+  margin-top: 220px;
+  margin-bottom: 220px;
+}
+.pro-title {
+  width: 600px;
+  color: var(--Color-3, #eee);
+  font-family: Poppins;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 80px;
+}
+.pro-title span {
+  color: var(--Color-3, #00adb5);
+  font-family: Poppins;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 80px;
+}
+
+.project-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form .fo-lab {
+  margin-bottom: 10px;
+  color: #eee;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.inpu-bg {
+  background-color: #393e4680;
+  border-radius: 8px;
+}
+.pro-btn {
+  padding: 10px 32px;
+  border-radius: 24px;
+  background: #00adb5;
+  color: #eee;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.footer-pra {
+  color: rgba(238, 238, 238, 0.75);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
 @media (max-width: 991.98px) {
   /* hero style */
   .hero-title1 {
@@ -228,8 +292,10 @@ header {
     padding-right: 20px;
   }
   .services {
+    height: 1000px;
+  }
+  .ser-card {
     width: 100%;
-    height: 700px;
   }
   .services-title {
     padding-top: 100px;
@@ -252,6 +318,39 @@ header {
   .ser-btn2 {
     padding: 8px 24px;
     border-radius: 18px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  /* project section style */
+  .contact {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  .pro-title {
+    width: 100%;
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 60px;
+  }
+  .pro-title span {
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 60px;
+  }
+
+  form .fo-lab {
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .inpu-bg {
+    background-color: #393e4680;
+    border-radius: 6px;
+  }
+  .pro-btn {
+    padding: 8px 24px;
+    border-radius: 20px;
     font-size: 16px;
     font-weight: 500;
   }
@@ -312,8 +411,10 @@ header {
     padding-right: 10px;
   }
   .services {
+    height: 900px;
+  }
+  .ser-card {
     width: 100%;
-    height: 500px;
   }
   .services-title {
     padding-top: 50px;
@@ -335,6 +436,39 @@ header {
   }
   .ser-btn2 {
     padding: 6px 20px;
+    border-radius: 16px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  /* project section style */
+  .contact {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  .pro-title {
+    width: 100%;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 50px;
+  }
+  .pro-title span {
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 40px;
+  }
+
+  form .fo-lab {
+    margin-bottom: 7px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .inpu-bg {
+    background-color: #393e4680;
+    border-radius: 6px;
+  }
+  .pro-btn {
+    padding: 7px 20px;
     border-radius: 16px;
     font-size: 14px;
     font-weight: 400;
