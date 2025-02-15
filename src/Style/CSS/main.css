@@ -1,0 +1,342 @@
+body {
+  background-color: #222831;
+}
+
+header {
+  border-bottom: 0.5px dotted lightcyan;
+}
+
+.header-logo {
+  color: #eee;
+  font-family: Oswald;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.nav-link {
+  color: #eee;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* hero section style  */
+.hero-title1 {
+  color: #eee;
+  font-family: Poppins;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 96px;
+}
+.hero-title2 {
+  color: #00adb5;
+  font-family: Poppins;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 96px;
+}
+
+.hero-btn {
+  margin-top: 20px;
+}
+
+.hero-btn1 {
+  color: #eee;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 10px 32px;
+  border-radius: 24px;
+  background: #00adb5;
+}
+
+.hero-btn2 {
+  color: #eee;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 10px 32px;
+  border-radius: 24px;
+  background: rgba(57, 62, 70, 0.75);
+  backdrop-filter: blur(2px);
+}
+.hero-array {
+  width: 76px;
+  height: 76px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 250px;
+}
+/* about section style  */
+.about-bg {
+  background-image: url(/src/Images/about-bg.png);
+  background-position: center;
+  background-size: cover;
+}
+.about-img {
+  width: 100%;
+  height: auto;
+}
+.about-title {
+  color: #eee;
+  font-family: Poppins;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.about-title span {
+  color: #00adb5;
+  font-family: Poppins;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.about-par {
+  color: rgba(238, 238, 238, 0.75);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-right: 200px;
+}
+.about {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+/* service style */
+.services {
+  background-image: url(/src/Images/ser-bg.png);
+  background-position: center;
+  width: 100%;
+  height: 900px;
+}
+.services-title {
+  padding-top: 150px;
+  color: #eee;
+  font-family: Poppins;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.services-title span {
+  color: #00adb5;
+  font-family: Poppins;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.service-btn {
+  margin-top: 20px;
+}
+.ser-btn1 {
+  padding: 10px 32px;
+  border-radius: 24px;
+  background: #00adb5;
+  color: #eee;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.ser-btn2 {
+  padding: 10px 32px;
+  border-radius: 24px;
+  background: rgba(57, 62, 70, 0.5);
+  backdrop-filter: blur(4px);
+  color: #eee;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+@media (max-width: 991.98px) {
+  /* hero style */
+  .hero-title1 {
+    font-size: 50px;
+    line-height: 56px;
+  }
+  .hero-title2 {
+    font-size: 50px;
+    line-height: 56px;
+  }
+  .hero-img {
+    width: 100%;
+  }
+  .hero-btn {
+    margin-top: 15px;
+  }
+  .hero-btn1 {
+    font-size: 16px;
+    padding: 8px 24px;
+    border-radius: 18px;
+  }
+
+  .hero-btn2 {
+    font-size: 16px;
+    padding: 8px 24px;
+    border-radius: 18px;
+  }
+  .hero-array {
+    width: 66px;
+    height: 66px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .about-title {
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 500;
+  }
+
+  .about-title span {
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .about {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+  .about-par {
+    font-size: 16px;
+    padding-right: 20px;
+  }
+  .services {
+    width: 100%;
+    height: 700px;
+  }
+  .services-title {
+    padding-top: 100px;
+    font-size: 44px;
+    font-weight: 500;
+  }
+  .services-title span {
+    font-size: 44px;
+    font-weight: 500;
+  }
+  .service-btn {
+    margin-top: 15px;
+  }
+  .ser-btn1 {
+    padding: 8px 24px;
+    border-radius: 18px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .ser-btn2 {
+    padding: 8px 24px;
+    border-radius: 18px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+}
+
+@media (max-width: 575.98px) {
+  /* hero style */
+  .hero-title1 {
+    font-size: 38px;
+    line-height: 46px;
+  }
+  .hero-title2 {
+    font-size: 38px;
+    line-height: 46px;
+  }
+  .hero-img {
+    width: 100%;
+  }
+  .hero-btn {
+    margin-top: 10px;
+  }
+  .hero-btn1 {
+    font-size: 13px;
+    padding: 6px 18px;
+    border-radius: 14px;
+  }
+
+  .hero-btn2 {
+    font-size: 13px;
+    padding: 6px 18px;
+    border-radius: 14px;
+  }
+  .hero-array {
+    width: 46px;
+    height: 46px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  .about-title {
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  .about-title span {
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .about {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .about-par {
+    font-size: 14px;
+    padding-right: 10px;
+  }
+  .services {
+    width: 100%;
+    height: 500px;
+  }
+  .services-title {
+    padding-top: 50px;
+    font-size: 34px;
+    font-weight: 400;
+  }
+  .services-title span {
+    font-size: 34px;
+    font-weight: 5\400;
+  }
+  .service-btn {
+    margin-top: 10px;
+  }
+  .ser-btn1 {
+    padding: 6px 20px;
+    border-radius: 16px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .ser-btn2 {
+    padding: 6px 20px;
+    border-radius: 16px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+}
